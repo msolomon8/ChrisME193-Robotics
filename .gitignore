@@ -1,4 +1,4 @@
-# This repo only syncs the "Public stuff" folder.
+# This repo only syncs the "Public stuff", "Kat-Projects" and "ME193" folders.
 # Everything else in this working directory is ignored on purpose.
 *
 !.gitignore
@@ -7,6 +7,8 @@
 !Public stuff/**
 !Kat-Projects/
 !Kat-Projects/**
+!ME193/
+!ME193/**
 
 # Local venv, ignored even inside "Kat-Projects"
 Kat-Projects/MQTT/

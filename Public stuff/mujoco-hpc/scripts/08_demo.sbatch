@@ -14,4 +14,4 @@ PYMOD=$(cat "$HOME/mujoco-env/python_module" 2>/dev/null)
 source "$HOME/mujoco-env/bin/activate"
 export MUJOCO_GL=egl
 python 08_demo.py
-mkdir -p results && mv bounce.mp4 "results/bounce-$SLURM_JOB_ID.mp4"   # where 08b_fetch_results.sh looks
+mkdir -p results && mv demo.mp4 "results/demo-$SLURM_JOB_ID.mp4"   # where 08b_fetch_results.sh looks
